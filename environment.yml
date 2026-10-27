@@ -1,0 +1,14 @@
+name: var-risk
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - pytest
+  - pip
+  - pip:
+      - yfinance
+      - arch

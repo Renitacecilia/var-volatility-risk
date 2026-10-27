@@ -1,0 +1,7 @@
+model,confidence,observations,expected_exceedances,actual_exceedances,exceedance_rate,kupiec_p_value,christoffersen_p_value,basel_zone_last_250,avg_VaR,avg_ES
+Historical,0.95,2471,123.6,123,0.0498,0.9595,0.0001,yellow,0.0211,0.0335
+Parametric (Normal),0.95,2471,123.6,110,0.0445,0.2029,0.0,yellow,0.0227,0.0288
+"GARCH(1,1)",0.95,2471,123.6,148,0.0599,0.0284,0.0203,red,0.0196,0.0249
+Historical,0.99,2471,24.7,37,0.015,0.0206,0.0019,green,0.0383,0.0539
+Parametric (Normal),0.99,2471,24.7,58,0.0235,0.0,0.0,green,0.0325,0.0374
+"GARCH(1,1)",0.99,2471,24.7,66,0.0267,0.0,0.3823,yellow,0.0282,0.0325
