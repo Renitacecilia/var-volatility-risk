@@ -99,3 +99,6 @@ README.md
 ## Disclaimer
 
 Educational project using public market data. Not investment advice.
+## Data source
+
+Daily adjusted close prices from Yahoo Finance, downloaded with the open-source [`yfinance`](https://github.com/ranaroussi/yfinance) library for educational use. Raw price data is not redistributed in this repo; it is downloaded when the script runs. This project is not affiliated with Yahoo or any of the companies analysed.
